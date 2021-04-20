@@ -3,12 +3,12 @@ import React, { Component } from 'react';
 export default class EvenAndOdd extends Component {
     
     constructor() {
-      super();
+        super();
     
-      this.state = {
-        evenArray: [],
-        oddArray: [],
-        userInput: ''
+        this.state = {
+            evenArray: [],
+            oddArray: [],
+            userInput: ''
       }
     }
 
